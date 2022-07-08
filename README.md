@@ -8,5 +8,6 @@ By rewriting these website applications I learned:
 - Functional Programming paradigm,
 - ES6 features,
 - working with modules,
+- working with local storage,
 - using parcel to transpile and polyfill code,
 - using more advanced JavaScript (GET/POST REST API, objects prototype chain, closures etc.) 
