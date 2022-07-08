@@ -1,0 +1,1 @@
+There are projects in which i took my first steps in JS programming. 
