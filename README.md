@@ -1,4 +1,4 @@
-# <p align="center"> <ins>[forkify](https://forkify-course-kamil.netlify.appp)</ins></p>
+# <p align="center"> <ins>[forkify](https://forkify-course-kamil.netlify.app)</ins></p>
 # <p align="center"> <ins>[mapty](mapty-kamil-course.netlify.app)</ins></p>
 
 These projects are created and designed by <ins><strong>Jonas Schmedtmann</strong></ins> (JS course from UDEMY). I rewrote these web apps from scratch.
