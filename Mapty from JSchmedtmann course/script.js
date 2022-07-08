@@ -92,7 +92,7 @@ class App {
     // Attach event handlers
     form.addEventListener('submit', this._newWorkout.bind(this));
     inputType.addEventListener('change', this._toggleElevationField);
-    containerWorkouts.addEventListener('click', ()=>{this._moveToPopup});
+    containerWorkouts.addEventListener('click', this._moveToPopup.bind(this));
   }
 
   _getPosition() {
@@ -120,7 +120,7 @@ class App {
     }).addTo(this.#map);
 
     // Handling clicks on map
-    this.#map.on('click', ()=> this._showForm());
+    this.#map.on('click', this._showForm.bind(this));
 
     this.#workouts.forEach(work => {
       this._renderWorkoutMarker(work);
